@@ -75,7 +75,7 @@ After peaking in late 2020, company sales continued to decline, with significant
 * Sales dropped significantly in February 2021, almost nearing pre-COVID levels. The main drivers of this dip were the gaming monitor, Nintendo Switch, and Sony PlayStation 5—all three of which exhibit the same plateauing behavior in 2020 and 2021.
 
 
-[Visualization specific to Sales Trend]
+[Visualization specific to Sales Trend] ![My data snapshot](Sales-by-Product.png)
 
 
 ### Product (Regional and Marketing) Performance:
