@@ -1,7 +1,3 @@
-Welcome to the sample GitHub ReadME! Use this template as an outline for your data analytics projects. Include one ReadME per repository, with each repository storing one project. Remember, it's better to have quality over quantity - having 2 stellar business-relevant projects stands out much more than 3+ mediocre projects. Feel free to make a copy of this or fork this repository and make it your own. Happy portfolio-ing :) 
-
-
-
 
 # Project Background
 
@@ -37,10 +33,9 @@ Backround about the company, including the industry, active years, business mode
 
 Insights and recommendations are provided on the following key areas:
 
-- **Products Performance:** 
-- **Category 2:** 
-- **Category 3:** 
-- **Category 4:** 
+- **Sales Trends:** 
+- **Product (Regional and Marketing) Performance:** 
+
 
 The SQL queries used to inspect and clean the data for this analysis can be found here [link].
 
@@ -102,26 +97,38 @@ After peaking in late 2020, company sales continued to decline, with significant
 
 # Recommendations:
 
-Based on the insights and findings above, we would recommend the [Sales and Marketing team] to consider the following: 
+Based on the insights and findings above, we would recommend the [Data, Product, Sales and Marketing team] to consider the following: 
 
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
-  
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
-  
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
-  
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
-  
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
-  
+* When people stay at home, they are more likely to spend on gaming products, which helps explain the pandemic-era sales surge. General team (contextual): maintain awareness that at-home demand conditions can influence gaming spend, and monitor whether the current decline reflects a return to pre-pandemic behavior.
+
+* The Razer Pro Gaming Headset generated only $884.23 in total sales from 7 orders, making it a clear underperformer. Product team (actionable): cut or phase out the Razer Pro Gaming Headset, after confirming it has no strategic bundling, acquisition, or niche role.
+
+* North America shows strong traction for the gaming monitor, Nintendo Switch, and PS5. Marketing team (actionable): prioritize promotion and marketing for these three products in the NA region.
+
+* The email channel shows a potential uptick, while the business remains overly reliant on direct traffic. Marketing team (actionable): focus the marketing strategy on the email channel to shift away from reliance on direct traffic.
+
+* Direct traffic appears oversized relative to other marketing channels. Data team (directional): double-check that marketing-channel attribution is correct, especially for direct traffic.
 
 
 # Assumptions and Caveats:
 
 Throughout the analysis, multiple assumptions were made to manage challenges with the data. These assumptions and caveats are noted below:
 
-* Assumption 1 (ex: missing country records were for customers based in the US, and were re-coded to be US citizens)
-  
-* Assumption 1 (ex: data for December 2021 was missing - this was imputed using a combination of historical trends and December 2020 data)
-  
-* Assumption 1 (ex: because 3% of the refund date column contained non-sensical dates, these were excluded from the analysis)
+
+**Pandemic/pre-pandemic causality**
+
+* Assumption: The 2020 sales boom was driven by at-home pandemic behavior, and the 2021 decline reflects a return to pre-pandemic normalcy.
+
+* Caveat: This is correlation, not proven causation. Other factors—seasonality, supply constraints, competition, pricing, or macro conditions—could also explain the rise and fall.
+
+**Product performance metric consistency**
+
+* Assumption: “Top products by revenue” and “top products by order/unit volume” are separate and should not be conflated.
+
+* Caveat: The analysis must clearly tie each metric to the correct product set. The $3.7M / 60% revenue figure, for example, should apply only to the order-volume leaders and $5.2M / 85% revenue figure for the revenue leaders. Rankings can change depending on the metric used.
+
+**Marketing channel attribution, especially direct traffic**
+
+* Assumption: Direct traffic is a valid, correctly attributed channel, and the email channel shows a real uptick worth shifting budget toward.
+
+* Caveat: Direct appears oversized, so attribution may be inaccurate. The email opportunity and the PS5 direct-traffic decline in NA should be validated by the data team before acting on them.
