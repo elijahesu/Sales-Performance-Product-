@@ -21,23 +21,23 @@ What the data suggests operationally:
 * Refunds are material enough to be a first-class metric, not an edge case.
 
 
-Metric	Definition	Why it matters
-GMV / Gross revenue	SUM(USD_PRICE)	Top-line sales volume
-Net revenue	SUM(USD_PRICE) - SUM(REFUNDED)	Revenue after refunds
-Orders	COUNT(DISTINCT ORDER_ID)	Demand volume
-Units sold	COUNT(*) or order-line count	Product throughput
-AOV	GMV / orders	Average basket size
-ARPU	GMV / unique USER_ID	Revenue per customer
-Refund rate	refunded orders / total orders	Product satisfaction / return pressure
-Refund amount	SUM(REFUNDED)	Revenue leakage
-Repeat purchase rate	users with >1 order / users with ≥1 order	Retention
-Ship lag	SHIP_TS - PURCHASE_TS_CLEANED	Fulfillment speed
+| Metric | What it tells us |
+|---|---|
+| **Revenue** | Total sales before refunds |
+| **Net Revenue** | Sales after refunds are subtracted |
+| **Orders** | How many purchases were made |
+| **Average Order Value** | How much customers spend per order |
+| **Refund Rate** | How often orders are refunded |
+| **Top Products** | Which items sell best |
+| **Top Regions** | Where our customers are located |
+| **Top Marketing Channels** | Which channels bring in the most sales |
+| **Sales Trend** | How revenue and orders change over time |
 
 Backround about the company, including the industry, active years, business model, and key business metrics. Explain this from the POV of a data analyst who is working at the company.
 
 Insights and recommendations are provided on the following key areas:
 
-- **Category 1:** 
+- **Products Performance:** 
 - **Category 2:** 
 - **Category 3:** 
 - **Category 4:** 
@@ -66,69 +66,43 @@ The companies main database structure as seen below consists of four tables: tab
 
 ### Overview of Findings
 
-Explain the overarching findings, trends, and themes in 2-3 sentences here. This section should address the question: "If a stakeholder were to take away 3 main insights from your project, what are the most important things they should know?" You can put yourself in the shoes of a specific stakeholder - for example, a marketing manager or finance director - to think creatively about this section.
+After peaking in late 2020, company sales continued to decline, with significant drops in 2021. Key performance indicators—total sales by product, average order value (AOV), and total orders—show that the main drivers were the Sony PlayStation 5, Nintendo Switch, and gaming monitors, with North America leading regional sales for most. The refund rate was 19.36%. Although this decline can be partly attributed to a return to pre-pandemic normalcy, the following sections will examine contributing factors and explain how these findings will inform our monthly product and regional stocking decisions.
 
 [Visualization, including a graph of overall trends or snapshot of a dashboard]
 
 
 
 # Insights Deep Dive
-### Category 1:
+### Sales Trends:
 
-* **Main insight 1.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* The company’s sales more than doubled in early 2020, reaching an all-time high in September with 1,496 orders totaling $456,871 in monthly revenue, and again in December with 1,671 orders totaling $549,435 in monthly revenue. This corresponds with the economy-wide spending boom caused by pandemic-induced changes in consumer behavior.
   
-* **Main insight 2.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 3.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 4.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-
-[Visualization specific to category 1]
+* Sales dropped significantly in February 2021, almost nearing pre-COVID levels. The main drivers of this dip were the gaming monitor, Nintendo Switch, and Sony PlayStation 5—all three of which exhibit the same plateauing behavior in 2020 and 2021.
 
 
-### Category 2:
-
-* **Main insight 1.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 2.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 3.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 4.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-
-[Visualization specific to category 2]
+[Visualization specific to Sales Trend]
 
 
-### Category 3:
+### Product (Regional and Marketing) Performance:
 
-* **Main insight 1.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 2.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 3.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 4.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* Eighty-eight percent of the company’s orders come from just three products: the gaming monitor, Nintendo Switch, and JBL gaming headset. These three products accounted for $3.7M in overall revenue, or 60% of the company’s total.
 
-[Visualization specific to category 3]
+* Direct is the main driver of sales; all other channels pale in comparison.
+
+* While all three top products exhibited dips in 2021, the Sony PlayStation 5 had a major dip in direct traffic in 2021 compared with other products and marketing channels. Since then, that product has seen a consistent decline in direct-channel sales.
+
+* For the Sony PS5, the drop is mostly contained to the NA region and direct traffic, which may indicate a shift in trends or competitors there.
+
+[Visualization specific to Product (Regional and Marketing) Performance]
 
 
-### Category 4:
 
-* **Main insight 1.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 2.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 3.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 4.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-
-[Visualization specific to category 4]
 
 
 
 # Recommendations:
 
-Based on the insights and findings above, we would recommend the [stakeholder team] to consider the following: 
+Based on the insights and findings above, we would recommend the [Sales and Marketing team] to consider the following: 
 
 * Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
   
