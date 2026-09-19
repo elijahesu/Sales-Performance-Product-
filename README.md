@@ -63,7 +63,7 @@ The companies main database structure as seen below consists of four tables: tab
 
 After peaking in late 2020, company sales continued to decline, with significant drops in 2021. Key performance indicators—total sales by product, average order value (AOV), and total orders—show that the main drivers were the Sony PlayStation 5, Nintendo Switch, and gaming monitors, with North America leading regional sales for most. The refund rate was 19.36%. Although this decline can be partly attributed to a return to pre-pandemic normalcy, the following sections will examine contributing factors and explain how these findings will inform our monthly product and regional stocking decisions.
 
-[Visualization, including a graph of overall trends or snapshot of a dashboard]
+[Visualization, including a graph of overall trends or snapshot of a dashboard] ![My data snapshot](Sales-Performance-Dashboard.png)
 
 
 
