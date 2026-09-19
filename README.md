@@ -88,7 +88,8 @@ After peaking in late 2020, company sales continued to decline, with significant
 
 * For the Sony PS5, the drop is mostly contained to the NA region and direct traffic, which may indicate a shift in trends or competitors there.
 
-[Visualization specific to Product (Regional and Marketing) Performance]
+[Visualization specific to Product (Regional and Marketing) Performance] ![My data snapshot](Regional-Metrics.png)
+
 
 
 
