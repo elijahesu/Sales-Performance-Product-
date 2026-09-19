@@ -20,7 +20,6 @@ What the data suggests operationally:
 | Metric | What it tells us |
 |---|---|
 | **Revenue** | Total sales before refunds |
-| **Net Revenue** | Sales after refunds are subtracted |
 | **Orders** | How many purchases were made |
 | **Average Order Value** | How much customers spend per order |
 | **Refund Rate** | How often orders are refunded |
@@ -29,7 +28,6 @@ What the data suggests operationally:
 | **Top Marketing Channels** | Which channels bring in the most sales |
 | **Sales Trend** | How revenue and orders change over time |
 
-Backround about the company, including the industry, active years, business model, and key business metrics. Explain this from the POV of a data analyst who is working at the company.
 
 Insights and recommendations are provided on the following key areas:
 
