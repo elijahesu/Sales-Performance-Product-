@@ -49,7 +49,7 @@ The companies main database structure as seen below consists of two tables: Regi
 - **Table 2: REGION**
 - **Table 3: ORDERS**
 
-[Entity Relationship Diagram here][My data snapshot](sales_schema.jpg)
+[Entity Relationship Diagram here] ![My data snapshot](sales-schema.jpg)
 
 
 
